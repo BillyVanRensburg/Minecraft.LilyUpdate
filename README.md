@@ -1,4 +1,4 @@
-# 🌿 Lily Update – Complete Detailed Design Document
+# 🌿 Lily Pad Update – Complete Detailed Design Document
 
 ## Document Overview
 This document provides a comprehensive technical and gameplay specification for the Lily Update add-on for Minecraft Bedrock Edition.
