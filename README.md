@@ -94,8 +94,8 @@ The Lily Pad Update introduces seven new lily pad variants across water and lava
 ### 1.1 Spreading Lily Pad Variants
 
 #### Water Variants (Overworld)
-| Variant | Type | Flower | Generation | World | Lily pad name |
-|----------------|------|--------|--------------------|---------|--------------------------------|
+| Variant | Type | Flower Color | Generation | World | Lily pad name |
+|---------------------------|-----------|--------|--------------------|---------|--------------------------------|
 | White Spreading Lily Pad | Spreading | White | Natural (45%) | Overworld | lilypad_update:white_lily_pad |
 | Pink Spreading Lily Pad | Spreading | Pink | Natural (30%) | Overworld | lilypad_update:pink_lily_pad |
 | Yellow Spreading Lily Pad | Spreading | Yellow | Natural (15%) | Overworld | lilypad_update:yellow_lily_pad |
