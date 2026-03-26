@@ -26,16 +26,151 @@ This document provides a comprehensive technical and gameplay specification for 
 
 ## 1. Core Concept
 
-The Lily Update adds seven new lily pad variants across water and lava biomes, creating a complete ecosystem with propagation mechanics, color inheritance, fish spawning, dolphin spawning, lava frog lifecycle, and integration with existing game systems. **All lily pads use a unified property system with `has_flower`, `is_cosmetic`, and `is_natural` properties.**
+The Lily Update introduces seven new lily pad variants across water and lava biomes, creating a complete ecosystem with propagation mechanics, mob spawning, a new lava frog, flower systems, bee integration, villager trades, and piglin bartering.
 
-### 1.1 Design Philosophy
-- **Vanilla-Friendly:** Extends existing mechanics rather than replacing them
-- **Additive Content:** Adds options without removing vanilla features
-- **Progression-Based:** Rarity creates natural collection goals
-- **Biome Integration:** Different variants spawn in different environments
-- **Risk/Reward:** Dangerous items (black flower) have powerful effects with drawbacks
-- **Unified System:** All lily pads share the same property structure
-- **Breakable:** All lily pads can be broken by hand, tools, boats, water/lava flow, and water/lava placement
+---
+
+### 1.1 Lily Pad Variants
+
+#### Water Variants (Overworld)
+| Variant | Type | Flower | Generation |
+|---------|------|--------|------------|
+| White Lily Pad | Spreading | White | Natural (45%) |
+| Pink Lily Pad | Spreading | Pink | Natural (30%) |
+| Yellow Lily Pad | Spreading | Yellow | Natural (15%) |
+| Purple Lily Pad | Spreading | Purple | Natural (10%) |
+| Golden Lily Pad | Spreading | Golden | Craft only |
+
+#### Lava Variants (Nether)
+| Variant | Type | Flower | Generation |
+|---------|------|--------|------------|
+| Lava Lily Pad | Plain | None | Natural |
+| Black Lily Pad | Spreading | Black | Natural (rare) |
+
+---
+
+### 1.2 Propagation Mechanics
+
+All spreading lily pad variants can propagate with the following rules:
+
+| Rule | Description |
+|------|-------------|
+| **Density Limit** | Propagation only occurs when less than 75% of blocks in a 9×9 area are occupied |
+| **Night Only** | Propagation only happens at night |
+| **Full Moon Bonus** | Full moon increases propagation rate |
+| **Water Inheritance** | Spreading water lily pads: 95% vanilla lily pad, 5% same color spreading pad |
+| **Golden Inheritance** | Golden lily pads: 100% vanilla lily pad |
+| **Lava Inheritance** | Spreading lava lily pads: 95% lava lily pad, 5% black spreading pad |
+
+---
+
+### 1.3 Mob Spawning Mechanics
+
+All spreading lily pads can spawn mobs under specific conditions:
+
+| Pad Type | Flower Color | Spawn | Special Conditions |
+|----------|--------------|-------|-------------------|
+| Water Spreading | White | Cod | Player-placed, surrounded by 8 water, 3+ depth, 20% chance |
+| Water Spreading | Pink | Salmon | Player-placed, surrounded by 8 water, 3+ depth, 20% chance |
+| Water Spreading | Yellow | Tropical Fish | Player-placed, surrounded by 8 water, 3+ depth, 20% chance |
+| Water Spreading | Purple | Squid / Glow Squid | Player-placed, surrounded by 8 water, 3+ depth, 20% chance (squid above Y=30, glow squid below Y=30) |
+| Golden Pad | Golden | Dolphins | Player-placed, surrounded by 8 water, 3+ depth, 5% chance |
+| Black Pad | Black | Small Magma Cubes | Player-placed, surrounded by 8 lava, 3+ depth, 10% chance |
+
+---
+
+### 1.4 Lava Frog
+
+A new mob that lives in lava and follows vanilla frog mechanics adapted for the Nether:
+
+| Aspect | Description |
+|--------|-------------|
+| **Spawning** | Naturally spawns on lava in the Nether |
+| **Eggs** | Laid on lava source blocks |
+| **Tadpoles** | Swim in lava |
+| **Adult** | Walks on lava source blocks |
+| **Breeding** | Uses fire charges |
+| **Diet** | Eats smallest magma cubes → drops **Lava Froglight** |
+| **Diet** | Eats smallest slime cubes → drops **Fire Charge** |
+| **Death Drop** | Nothing |
+| **Collection** | Can be collected with a bucket |
+| **Leash** | Can be attached with a lead |
+
+---
+
+### 1.5 Lily Flowers
+
+Six flower types that can be sheared from spreading lily pads:
+
+| Flower | Source | Regrowth | Uses |
+|--------|--------|----------|------|
+| White | White Lily Pad | ✅ Yes (25% night, 100% full moon) | Dye, potions |
+| Pink | Pink Lily Pad | ✅ Yes | Dye, potions |
+| Yellow | Yellow Lily Pad | ✅ Yes | Dye, potions |
+| Purple | Purple Lily Pad | ✅ Yes | Dye, potions |
+| Black | Black Lily Pad | ✅ Yes | Dye, potions, instant death arrows |
+| Golden | Golden Lily Pad | ❌ No | Dye, potions (crafted) |
+
+**Flower Mechanics:**
+- Can be sheared from spreading lily pads
+- Regrow naturally on spreading pads (golden pads do not regrow)
+- Can be placed on vanilla lily pads or lava lily pads for cosmetic use only
+- Generate firefly effects at night on any lily pad
+- Can be crafted into dye
+- Can be used to craft potions
+
+---
+
+### 1.6 Bee Integration
+
+| Flower | Attraction | Pollen Collection | Breeding Result |
+|--------|------------|-------------------|-----------------|
+| White/Pink/Yellow/Purple/Golden | ✅ Yes | ✅ Yes | ✅ Breed successfully |
+| Black | ✅ Yes | ✅ Yes | ❌ Instantly kills bee |
+
+---
+
+### 1.7 Villager Trades
+
+| Trader | Buys | Sells |
+|--------|------|-------|
+| **Fisherman** | Vanilla lily pads, colored flowers, spreading lily pads | Golden lily flower (Master level) |
+| **Wandering Trader** | Emeralds | All lily pads, all flowers, suspicious stews, repellent potions, potion of instant death |
+
+---
+
+### 1.8 Piglin Bartering
+
+| Item Given | Result |
+|------------|--------|
+| Golden Lily Pad | Standard gold ingot loot table + **5% chance for Black Lily Pad** |
+| Golden Lily Flower | Standard gold ingot loot table + **5% chance for Black Lily Pad** |
+
+Golden spreading lily pads and golden lily flowers can be used to barter with piglins.
+
+---
+
+### 1.9 Instant Death Arrows
+
+| Item | Effect |
+|------|--------|
+| Potion of Instant Death | Crafted with black flower |
+| Arrow of Instant Death | Crafted with potion + arrows |
+| **Player** | 5% instant death / 95% large damage |
+| **Regular Mobs** | 50% instant death / 50% large damage |
+| **Immune Mobs** (Dragon, Wither, Warden) | 100% large damage |
+
+---
+
+### 1.10 Unified Block Properties
+
+All lily pads share a unified property system for consistent behavior:
+
+| Property | Values | Description |
+|----------|--------|-------------|
+| `has_flower` | true / false | Whether the pad currently has a flower |
+| `is_cosmetic` | true / false | Non-propagating variant (decorative only) |
+| `is_natural` | true / false | World-generated or player-placed |
 
 ---
 
