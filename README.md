@@ -28,6 +28,59 @@ This document provides a comprehensive technical and gameplay specification for 
 
 The Lily Update introduces seven new lily pad variants across water and lava biomes, creating a complete ecosystem with propagation mechanics, mob spawning, a new lava frog, flower systems, bee integration, villager trades, and piglin bartering.
 
+### New lily pad variants:
+- 4 new water variants (spreading lily pads) with flowers (white, pink, yellow, purple) that generate naturally in water in the Overworld.
+- 1 new craftable water variant (spreading lily pad) with golden flower that can only be crafted.
+- 2 new lava variants (1 plain lily pad and 1 spreading lily pad with black flower) that generate naturally in lava in the Nether.
+
+### New Propagation Mechanics:
+- All spreading lily pad variations can propagate.
+- Density limits for propagation.
+- Propagation only happens at night.
+- Full moon increases propagation.
+- Inheritance where spreading water lily pads have 95% chance to spawn vanilla lily pads, 5% chance to spread similar spreading lily pad on water source.
+- Inheritance where crafted water lily pads have 100% chance to spawn a vanilla lily pad on water source.
+- Inheritance where spreading lava lily pads have 95% chance to spawn lava lily pads, 5% chance to spread similar spreading lily pad on lava source.
+
+### New Mob Spawning Mechanic:
+- All spreading lily pads can spawn mobs (cod, salmon, tropical fish, squid, glow squid, dolphins and small magma cubes).
+- Special conditions for mob spawning.
+
+### New Lava Frog Added:
+- Naturally spawns on lava.
+- Eggs get laid on lava.
+- Tadpoles swim in lava.
+- Walks on lava source blocks.
+- Breeds with fire charges.
+- Eats smallest size magma cubes to drop lava froglight.
+- Eats smallest size slime cubes to drop fire charge.
+- Drops nothing when killed.
+- Can be collected with a bucket.
+- Can use a lead on the lava frog.
+
+### Lily Flowers Added (White, Pink, Yellow, Purple, Black and Golden):
+- Can be sheared from spreading lily pads.
+- Will grow back on spreading lily pads (not the golden variant).
+- Can be placed on vanilla lily pads or lava lily pads for cosmetic use only.
+- Flower generates firefly effect on any lily pad.
+- Golden lily flower can be crafted.
+- Flowers can be crafted into dye.
+- Flowers can be used to craft potions.
+
+### Bee Integration:
+- All flowers attract bees.
+- All flowers give pollen to bees.
+- Flowers can be used to breed bees (black flowers kill bees when used for breeding).
+
+### Villager Trades:
+- Fisherman and Wandering Trader.
+
+### Piglin Bartering:
+- Golden items have 5% chance to yield black lily pads.
+- Golden spreading lily pads and golden lily flowers can be used to barter with piglins.
+
+### Instant Death Arrows Added.
+
 ---
 
 ### 1.1 Lily Pad Variants
