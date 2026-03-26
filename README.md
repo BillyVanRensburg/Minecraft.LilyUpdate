@@ -93,15 +93,15 @@ The Lily Pad Update introduces seven new lily pad variants across water and lava
 
 ### 1.1 Spreading Lily Pad Variants
 
-| Variant | Flower Color | Generation | World | Lily pad name | Hardness | Blast Resistance | Light Emission | Break Time | Break By hand | Break by boat | Drop with flower | Drop without flower | Firefly effect | Firefly color | Shear flower | Flower Regrowth |
-|---------|--------------|------------|-------|---------------|----------|------------------|----------------|------------|---------------|---------------|------------------|---------------------|----------------|---------------|--------------|-----------------|
-| White Spreading Lily Pad | White | Natural (45%) | Overworld | lilypad_update:white_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Vanilla Lily Pad | Only with flower | White | True | 25% change |
-| Pink Spreading Lily Pad | Pink | Natural (30%) | Overworld | lilypad_update:pink_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Vanilla Lily Pad | Only with flower | Pink | True | 25% change |
-| Yellow Spreading Lily Pad | Yellow | Natural (15%) | Overworld | lilypad_update:yellow_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Vanilla Lily Pad | Only with flower | Yellow | True | 25% change |
-| Blue Spreading Lily Pad | Blue | Natural (10%) | Overworld | lilypad_update:blue_lily_pad | 0.1 | 0 | 7 (with flower) | True | 0.2 sec | True | Self | Vanilla Lily Pad | Only with flower | Blue | True | 25% change |
-| Black Spreading Lily Pad | Black | Natural (rare) | Nether | lilypad_update:black_lily_pad | 0.1 | 0 | 7 (with flower) | True | 0.2 sec | True | Self | Lava Lily Pad | Only with flower | Black | True | 25% change |
-| Purple Spreading Lily Pad | Purple | Natural (10%) | End Dimention | lilypad_update:purple_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Ender Lily Pad | Only with flower | Purple | True | 25% change |
-| Golden Spreading Lily Pad | Golden | Craft only | | lilypad_update:golden_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True |  Self | Vanilla Lily Pad |  Only with flower | Orange | True | False |
+| Variant | Flower Color | Generation | World | Lily pad name | Hardness | Blast Resistance | Light Emission | Break Time | Break By hand | Break by boat | Drop with flower | Drop without flower | Firefly effect | Firefly color | Shear flower | Flower Regrowth | Propagation | Mob Spawn | Can stand on lily pad |
+|---------|--------------|------------|-------|---------------|----------|------------------|----------------|------------|---------------|---------------|------------------|---------------------|----------------|---------------|--------------|-----------------|-------------|-----------|-----------------------|
+| White Spreading Lily Pad | White | Natural (45%) | Overworld | lilypad_update:white_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Vanilla Lily Pad | Only with flower | White | True | 25% change | True | Cod | True |
+| Pink Spreading Lily Pad | Pink | Natural (30%) | Overworld | lilypad_update:pink_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Vanilla Lily Pad | Only with flower | Pink | True | 25% change | True | Sammon | True |
+| Yellow Spreading Lily Pad | Yellow | Natural (15%) | Overworld | lilypad_update:yellow_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Vanilla Lily Pad | Only with flower | Yellow | True | 25% change | True | Tropical Fish | True |
+| Blue Spreading Lily Pad | Blue | Natural (10%) | Overworld | lilypad_update:blue_lily_pad | 0.1 | 0 | 7 (with flower) | True | 0.2 sec | True | Self | Vanilla Lily Pad | Only with flower | Blue | True | 25% change | True | Squid/Glow Squid | True |
+| Black Spreading Lily Pad | Black | Natural (rare) | Nether | lilypad_update:black_lily_pad | 0.1 | 0 | 7 (with flower) | True | 0.2 sec | True | Self | Lava Lily Pad | Only with flower | Black | True | 25% change | True | Small Magma Cube | True |
+| Purple Spreading Lily Pad | Purple | Natural (10%) | End Dimention | lilypad_update:purple_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Ender Lily Pad | Only with flower | Purple | True | 25% change | True | New Mob? | True |
+| Golden Spreading Lily Pad | Golden | Craft only | | lilypad_update:golden_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True |  Self | Vanilla Lily Pad |  Only with flower | Orange | True | False | True | Dolphin | True |
 
 #### Lava Variants (Nether)
 | Variant | Type | Flower | Generation |
