@@ -81,18 +81,26 @@ The Lily Pad Update introduces seven new lily pad variants across water and lava
 
 ### Instant Death Arrows Added.
 
+### Fishing loot
+
+### Chest loot
+
+### New potions
+
+
+
 ---
 
-### 1.1 Lily Pad Variants
+### 1.1 Spreading Lily Pad Variants
 
 #### Water Variants (Overworld)
-| Variant | Type | Flower | Generation |
-|---------|------|--------|------------|
-| White Lily Pad | Spreading | White | Natural (45%) |
-| Pink Lily Pad | Spreading | Pink | Natural (30%) |
-| Yellow Lily Pad | Spreading | Yellow | Natural (15%) |
-| Purple Lily Pad | Spreading | Purple | Natural (10%) |
-| Golden Lily Pad | Spreading | Golden | Craft only |
+| Variant | Type | Flower | Generation | World | Lily pad name |
+|----------------|------|--------|--------------------|---------|--------------------------------|
+| White Lily Pad | Spreading | White | Natural (45%) | Overworld | lilypad_update:white_lily_pad |
+| Pink Lily Pad | Spreading | Pink | Natural (30%) | Overworld | lilypad_update:pink_lily_pad |
+| Yellow Lily Pad | Spreading | Yellow | Natural (15%) | Overworld | lilypad_update:yellow_lily_pad |
+| Purple Lily Pad | Spreading | Purple | Natural (10%) | Overworld | lilypad_update:purple_lily_pad |
+| Golden Lily Pad | Spreading | Golden | Craft only | | lilypad_update:golden_lily_pad |
 
 #### Lava Variants (Nether)
 | Variant | Type | Flower | Generation |
@@ -771,6 +779,7 @@ F = Any Colored Lily Flower (white, pink, yellow, purple)
 |------|------------|--------|
 | Awkward Potion | Black Flower | Potion of Instant Death |
 
+lingering varient?
 ---
 
 ## 11. Suspicious Stew Effects
