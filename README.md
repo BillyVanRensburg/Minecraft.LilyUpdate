@@ -26,7 +26,7 @@ This document provides a comprehensive technical and gameplay specification for 
 
 ## 1. Core Concept
 
-The Lily Update introduces seven new lily pad variants across water and lava biomes, creating a complete ecosystem with propagation mechanics, mob spawning, a new lava frog, flower systems, bee integration, villager trades, and piglin bartering.
+The Lily Pad Update introduces seven new lily pad variants across water and lava biomes, creating a complete ecosystem with propagation mechanics, mob spawning, a new lava frog, flower systems, bee integration, villager trades, piglin bartering and more.
 
 ### New lily pad variants:
 - 4 new water variants (spreading lily pads) with flowers (white, pink, yellow, purple) that generate naturally in water in the Overworld.
