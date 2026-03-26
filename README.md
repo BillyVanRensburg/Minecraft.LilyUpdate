@@ -96,17 +96,18 @@ The Lily Pad Update introduces seven new lily pad variants across water and lava
 #### Water Variants (Overworld)
 | Variant | Type | Flower | Generation | World | Lily pad name |
 |----------------|------|--------|--------------------|---------|--------------------------------|
-| White Lily Pad | Spreading | White | Natural (45%) | Overworld | lilypad_update:white_lily_pad |
-| Pink Lily Pad | Spreading | Pink | Natural (30%) | Overworld | lilypad_update:pink_lily_pad |
-| Yellow Lily Pad | Spreading | Yellow | Natural (15%) | Overworld | lilypad_update:yellow_lily_pad |
-| Purple Lily Pad | Spreading | Purple | Natural (10%) | Overworld | lilypad_update:purple_lily_pad |
-| Golden Lily Pad | Spreading | Golden | Craft only | | lilypad_update:golden_lily_pad |
+| White Spreading Lily Pad | Spreading | White | Natural (45%) | Overworld | lilypad_update:white_lily_pad |
+| Pink Spreading Lily Pad | Spreading | Pink | Natural (30%) | Overworld | lilypad_update:pink_lily_pad |
+| Yellow Spreading Lily Pad | Spreading | Yellow | Natural (15%) | Overworld | lilypad_update:yellow_lily_pad |
+| Blue Spreading Lily Pad | Spreading | Blue | Natural (10%) | Overworld | lilypad_update:blue_lily_pad |
+| Black Spreading Lily Pad | Spreading | Black | Natural (rare) | End Dimention | lilypad_update:black_lily_pad |
+| Purple Spreading Lily Pad | Spreading | Purple | Natural (10%) | Overworld | lilypad_update:purple_lily_pad |
+| Golden Spreading Lily Pad | Spreading | Golden | Craft only | | lilypad_update:golden_lily_pad |
 
 #### Lava Variants (Nether)
 | Variant | Type | Flower | Generation |
 |---------|------|--------|------------|
 | Lava Lily Pad | Plain | None | Natural |
-| Black Lily Pad | Spreading | Black | Natural (rare) |
 
 ---
 
