@@ -1141,5 +1141,3 @@ function trySpawnMagmaCube(padLocation, pad, dimension) {
 | **Achievements** | 50 | All progression milestones |
 
 ---
-
-**This is the complete, final Lily Update detailed design document ready for implementation!** 🌸🌋
