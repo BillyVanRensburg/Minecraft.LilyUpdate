@@ -93,15 +93,15 @@ The Lily Pad Update introduces seven new lily pad variants across water and lava
 
 ### 1.1 Spreading Lily Pad Variants
 
-| Variant | Type | Flower Color | Generation | World | Lily pad name | Hardness | Blast Resistance | Light Emission | Break Time | Break By hand | Break by boat | Drop with flower | Drop without flower | Firefly effect |
-|---------|------|--------------|------------|-------|---------------|----------|------------------|----------------|------------|---------------|---------------|------------------|---------------------|----------------|
-| White Spreading Lily Pad | Spreading | White | Natural (45%) | Overworld | lilypad_update:white_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Vanilla Lily Pad | Only with flower |
-| Pink Spreading Lily Pad | Spreading | Pink | Natural (30%) | Overworld | lilypad_update:pink_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Vanilla Lily Pad | Only with flower |
-| Yellow Spreading Lily Pad | Spreading | Yellow | Natural (15%) | Overworld | lilypad_update:yellow_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Vanilla Lily Pad | Only with flower |
-| Blue Spreading Lily Pad | Spreading | Blue | Natural (10%) | Overworld | lilypad_update:blue_lily_pad | 0.1 | 0 | 7 (with flower) | True | 0.2 sec | True | Self | Vanilla Lily Pad | Only with flower |
-| Black Spreading Lily Pad | Spreading | Black | Natural (rare) | Nether | lilypad_update:black_lily_pad | 0.1 | 0 | 7 (with flower) | True | 0.2 sec | True | Self | Vanilla Lily Pad | Only with flower |
-| Purple Spreading Lily Pad | Spreading | Purple | Natural (10%) | End Dimention | lilypad_update:purple_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Vanilla Lily Pad | Only with flower |
-| Golden Spreading Lily Pad | Spreading | Golden | Craft only | | lilypad_update:golden_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True |  Self | Vanilla Lily Pad |  Only with flower |
+| Variant | Flower Color | Generation | World | Lily pad name | Hardness | Blast Resistance | Light Emission | Break Time | Break By hand | Break by boat | Drop with flower | Drop without flower | Firefly effect | Firefly color | Shear flower | Flower Regrowth |
+|---------|--------------|------------|-------|---------------|----------|------------------|----------------|------------|---------------|---------------|------------------|---------------------|----------------|---------------|--------------|-----------------|
+| White Spreading Lily Pad | White | Natural (45%) | Overworld | lilypad_update:white_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Vanilla Lily Pad | Only with flower | White | True | 25% change |
+| Pink Spreading Lily Pad | Pink | Natural (30%) | Overworld | lilypad_update:pink_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Vanilla Lily Pad | Only with flower | Pink | True | 25% change |
+| Yellow Spreading Lily Pad | Yellow | Natural (15%) | Overworld | lilypad_update:yellow_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Vanilla Lily Pad | Only with flower | Yellow | True | 25% change |
+| Blue Spreading Lily Pad | Blue | Natural (10%) | Overworld | lilypad_update:blue_lily_pad | 0.1 | 0 | 7 (with flower) | True | 0.2 sec | True | Self | Vanilla Lily Pad | Only with flower | Blue | True | 25% change |
+| Black Spreading Lily Pad | Black | Natural (rare) | Nether | lilypad_update:black_lily_pad | 0.1 | 0 | 7 (with flower) | True | 0.2 sec | True | Self | Lava Lily Pad | Only with flower | Black | True | 25% change |
+| Purple Spreading Lily Pad | Purple | Natural (10%) | End Dimention | lilypad_update:purple_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True | Self | Ender Lily Pad | Only with flower | Purple | True | 25% change |
+| Golden Spreading Lily Pad | Golden | Craft only | | lilypad_update:golden_lily_pad | 0.1 | 0 | 7 (with flower) | 0.2 sec | True | True |  Self | Vanilla Lily Pad |  Only with flower | Orange | True | False |
 
 #### Lava Variants (Nether)
 | Variant | Type | Flower | Generation |
